@@ -6,8 +6,10 @@
 }
 
 body{
-    background-color:  #111827;
     color: rgb(232, 227, 227);
+}
+main{
+    background-color:  #111827;
 }
 .banner{
     display: flex;
