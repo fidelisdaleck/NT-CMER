@@ -7,7 +7,7 @@
 
 body{
     color: rgb(232, 227, 227);
-    background-color:  #111827;
+    /* background-color:  #111827; */
 }
 .banner{
     display: flex;
