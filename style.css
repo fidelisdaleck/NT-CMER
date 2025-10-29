@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:  #111827;
+    color: rgb(232, 227, 227);
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 3px solid rgb(0, 98, 255);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.banner img{
+    border-radius: 20px;
+    height: 45vh;
+}
+
+
+.flex{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 4px 4px rgba(116, 121, 28, 0.447);
+    /* margin-right: 60px; */
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+.flex{
+        margin-left: 30px;
+    }
+
+.flex:hover{
+    cursor: pointer;
+    font-size: 15px;
+    width: 310px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.flex2{
+    width: 300px;
+    height: auto;
+    border: 1px solid rgba(128, 128, 128, 0.32);
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    /* box-shadow: 4px 4px rgba(116, 121, 28, 0.447); */
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+ 
+
+.flex2:hover{
+    cursor: pointer;
+    font-size: 15px;
+    width: 310px;
+    transition: 0.5s;
+}
+
+.flex2 img{
+    border-radius: 50%;
+}
+ 
+.flex2 p{
+    font-weight: bold;
+}
+.carousel-item{
+    padding: 65px;
+}
+.temoignage{
+    font-size: 18px;
+    font-style: italic;
+}
+.auteur{
+    margin-top: 10px;
+    font-weight: bold;   
+}
+
+/* .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.icons{
+    font-size: 35px;
+}
+.autre{
+    font-size: 20px;
+}
+.whatsapp, .facebook, .tiktok{
+    margin-left: 35px;
+}
+.footer{
+    padding: 45px 0px 40px 0px;
+}
+/* responsive */
+
+@media (max-width: 800px){
+    .flex2{
+        margin-left: 40px;
+    } 
+    .banner{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner img{
+    border-radius: 20px;
+    height: 40vh;
+}
+     
+}
